@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Automation Script" parallel="false">
+    <parameter name="url" value="https://www.amazon.com/"/>
+    <test name="Amazon home">
+        <classes>
+            <class name="TestHomeAM"/>
+        </classes>
+    </test>
+</suite>
