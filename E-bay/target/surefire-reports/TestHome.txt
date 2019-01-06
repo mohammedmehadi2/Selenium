@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestHome
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.245 sec <<< FAILURE!
-setup(TestHome)  Time elapsed: 0.145 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.236 sec <<< FAILURE!
+setup(TestHome)  Time elapsed: 0.132 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'url' is required by @Configuration on method setup but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParameters(Parameters.java:154)

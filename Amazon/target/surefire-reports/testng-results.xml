@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestHomeAM" duration-ms="1" started-at="2019-01-02T21:15:03Z" finished-at="2019-01-02T21:15:03Z">
+  <suite name="Amazon Automation Script" duration-ms="34977" started-at="2019-01-05T16:12:20Z" finished-at="2019-01-05T16:12:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1" started-at="2019-01-02T21:15:03Z" finished-at="2019-01-02T21:15:03Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- TestHomeAM -->
+    <test name="Amazon home" duration-ms="34977" started-at="2019-01-05T16:12:20Z" finished-at="2019-01-05T16:12:55Z">
+      <class name="TestHomeAM">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestHomeAM@3d8c7aca]" name="setup" is-config="true" duration-ms="12613" started-at="2019-01-05T11:12:20Z" finished-at="2019-01-05T11:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestHomeAM@3d8c7aca]" name="test1" duration-ms="22210" started-at="2019-01-05T11:12:33Z" finished-at="2019-01-05T11:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomeAM@3d8c7aca]" name="cleanUp" is-config="true" duration-ms="142" started-at="2019-01-05T11:12:55Z" finished-at="2019-01-05T11:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TestHomeAM -->
+    </test> <!-- Amazon home -->
+  </suite> <!-- Amazon Automation Script -->
 </testng-results>

@@ -6,4 +6,13 @@
       <class name="TestHomeAM"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestHomeAM">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestHomeAM -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [TestHomeAM] -->

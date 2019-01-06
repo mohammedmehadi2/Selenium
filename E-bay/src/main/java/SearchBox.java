@@ -1,6 +1,10 @@
 import Base.CommonApi;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class SearchBox extends CommonApi {
+    @FindBy(linkText = "Motors")
+    WebElement motors;
     public void searchbox(){
         typeonelementandenter("gh-ac","Skateboard");
         navigateback();
@@ -9,5 +13,8 @@ public class SearchBox extends CommonApi {
         typeonelementandenter("gh-ac","gadget");
         navigateback();
 
+    }
+    public void motors(){
+        motors.click();
     }
 }
